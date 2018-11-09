@@ -235,16 +235,18 @@ $color_tertiary_darken: #ae7003;
     }
 }
 
-
 .tabs .tab a {
-    color: rgba(122,0,54,0.7);
+    color: rgba(122,0,54,0.7) !important;
 }
 
 .tabs .indicator {
-    background-color: $color_secundary;
+    background-color: $color_secundary !important;
 }
 
-.tabs .tab a:hover, .tabs .tab a.active {
-    background-color: transparent;
-    color: #000;
+.collection .collection-item.avatar {
+    min-height: 0;
+}
+
+.collection {
+    overflow: visible;
 }
