@@ -235,18 +235,20 @@ $color_tertiary_darken: #ae7003;
     }
 }
 
-.tabs .tab a {
-    color: rgba(122,0,54,0.7) !important;
-}
+.tabs {
+    & .tab a {
+        color: rgba(122,0,54,0.7) !important;
+    }
 
-.tabs .indicator {
-    background-color: $color_secundary !important;
-}
-
-.collection .collection-item.avatar {
-    min-height: 0;
+    & .indicator {
+        background-color: $color_secundary !important;
+    }
 }
 
 .collection {
-    overflow: visible;
+    overflow: visible !important;
+
+    & .collection-item.avatar {
+        min-height: 0 !important;
+    }
 }

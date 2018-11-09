@@ -64,11 +64,9 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     //dropdown settings
-    document.addEventListener("DOMContentLoaded", function() {
     var e = document.querySelectorAll(".dropdown-trigger-user-settings");
-            M.Dropdown.init(e, {
-            alignment: "right",
-            coverTrigger: false
-        })
+        M.Dropdown.init(e, {
+        alignment: "right",
+        coverTrigger: false
     });
   });
