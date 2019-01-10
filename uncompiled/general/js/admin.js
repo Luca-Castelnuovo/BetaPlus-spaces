@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
             type: "POST",
             url: '/admin/process.php',
             dataType: "JSON",
-            timeout: (2 * 1000),
+            timeout: (10 * 1000),
             data: {
                 CSRFtoken: CSRFtoken.value,
                 type: 'gen',
